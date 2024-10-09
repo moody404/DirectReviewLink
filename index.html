@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Place ID Finder</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <!-- Input for the location search -->
+      <input
+        id="pac-input"
+        class="controls"
+        type="text"
+        placeholder="Enter a location"
+      />
+
+      <!-- Map container -->
+      <div id="map"></div>
+
+      <!-- Place ID and Google Review Link section -->
+      <div id="info-panel">
+        <h3>Place Information:</h3>
+        <p><strong>Place Name:</strong> <span id="place-name" class="title"></span></p>
+        <p><strong>Place ID:</strong> <span id="place-id"></span></p>
+        <p><strong>Address:</strong> <span id="place-address"></span></p>
+        <p>
+          <strong>Google Review Link:</strong>
+          <a id="review-link" href="" target="_blank">Click here to leave a review</a>
+        </p>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key="apiKeyxxxx"&callback=initMap&libraries=places&v=weekly"
+      defer
+    ></script>
+  </body>
+</html>

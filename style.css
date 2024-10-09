@@ -1,0 +1,48 @@
+/* Set the map height to 60% of the page */
+#map {
+    height: 60vh;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Make sure the entire page still fills the window */
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the input field */
+  .controls {
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 15px;
+    height: 29px;
+    margin: 10px;
+    padding: 0 11px;
+    width: 400px;
+  }
+  
+  /* Info panel below the map for displaying the place information */
+  #info-panel {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  #info-panel h3 {
+    margin-top: 0;
+  }
+  
+  #info-panel p {
+    margin: 5px 0;
+  }
+  
